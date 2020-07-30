@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+body {
+    background-image: url("images/pattern-curve.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    font-family: 'Inter', sans-serif;
+    color: hsl(240, 6%, 30%);
+    height: 100vh;
+    /* font-size: 32px; */
+}
+p{
+    font-weight: 300;
+}
+
+.container {
+    width: 360px;
+    margin:50px auto;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.card1 img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+   
+    
+}
+
+img#tanya {
+    width: 250px;
+    height: 230px;
+    margin-left: -300px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 60px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    margin-left:150px;
+    margin-top: -90px;
+    box-shadow: 5px 5px 10px 0 hsl(240, 2%, 25%);
+}
+
+.buttons img {
+    width: 10px;
+    height: 10px;
+}
+
+#left {
+    margin-left: 24px;
+}
+
+.card2 {
+    margin-top: 10px;
+    background-image: url('images/pattern-quotes.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    visibility: visible;
+}
+
+
+.card3 {
+    margin-top: 10px;
+    background-image: url('images/pattern-quotes.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    visibility: hidden;
+    margin-top: -280px;
+}
+
+blockquote {
+    margin: 30px;
+   padding: 5px;
+    font-weight: 500 !important;
+}
+
+cite {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.details p {
+   
+    font-size: 90%;
+}
+
+
+@media screen and (min-width:600px){
+
+  
+    .container {
+        width: 700px;
+        margin:50px auto;
+        display: flex;
+        flex-direction: row-reverse;
+        ;
+
+    }
+
+    .buttons {
+            margin-left:100px;
+  }
+
+  .card2 {
+    background-position:left top;
+      margin-top:70px;
+   
+    width: 400px;
+    height:200px;
+    margin-right:230px;
+    text-align: left;
+    position: absolute;
+    /* padding: 0px; */
+
+}
+
+    .card3 {
+    background-position:left top;
+    margin-top:70px;
+  width: 400px;
+  height:200px;
+  margin-right:230px;
+  text-align: left;
+  position: absolute;   
+}
+
+blockquote {
+    
+    margin: 0;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.details {
+    margin-left: -40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.details p {
+    margin-left: 5px;
+    
+}
+}
